@@ -98,7 +98,7 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT -1
+#define SERIAL_PORT 0
 
 /**
  * Serial Port Baud Rate
@@ -3222,7 +3222,7 @@
 // Temperature status LEDs that display the hotend and bed temperature.
 // If all hotends, bed temperature, and target temperature are under 54C
 // then the BLUE led is on. Otherwise the RED led is on. (1C hysteresis)
-#define TEMP_STAT_LEDS
+// #define TEMP_STAT_LEDS
 
 // Support for BlinkM/CyzRgb
 //#define BLINKM
