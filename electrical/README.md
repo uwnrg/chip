@@ -1,61 +1,55 @@
-# C.H.I.P.
+# C.H.I.P. Electronics
 
-This is a repository for the Conductive Hydrodynamic Ink Printer (CHIP), our current fabrication robot. It is an additive manufacturing device that uses conductive, water-based nanoparticle inks to create circuits and sensors for a variety of applications. This robot allows us to explore applications in PCB fabrication, integrated devices, wearable sensors, and printed displays. Our aim with this platform is to broaden our robot development capabilities by adding a new fabrication technique to our team.
+This is the electronics side of the CHIP project. This includes the circuit related components, such as pcb and cad designs. Firmware is found in the `controls` folder back in the main directory.
 
 ---
 
 ## Folder Structure
 
-### 1. `controls`
+### 1. `cad_design`
 
 **Purpose:**
-The `controls` folder contains the code responsible for moving the robotic components in the device. This includes scripts and configurations that enable precise motion and control of the robotic elements.
+The `cad_design` folder contains CAD files related to the circuity. This mainly includes housing for these circuits.
 
 **Contents:**
 
-- Scripts for motor control and coordination.
-- Configuration files for tuning robotic movement.
-- Documentation related to control algorithms and parameters.
+- Solidwork files for PSU
+- PCB box files
 
 **Usage:**
 
-1. Develop and test motion control algorithms in this folder.
-2. Update configuration files to match the specific hardware setup.
-3. Ensure proper documentation of control logic for maintainability.
+1. Any CAD files should be placed here
+2. 3D printing files, like GCODE can also go here
 
-### 2. `mechanical`
+### 2. `documentation`
 
 **Purpose:**
-The `mechanical` folder contains all files and designs related to the mechanical aspects of the device. This includes the framing, fasteners, motor holders, threaded rod catchers, and other structural components.
+The `documentation` folder contains documentation on the entire design process for the electronic side of things.
 
 **Contents:**
 
-- `single_parts/`: Contains designs for individual components.
-- `assemblies/`: Contains complete assemblies composed of multiple parts.
-- CAD files, schematics, and design documentation.
+- Documentation on processes
+- Images of said processes
 
 **Usage:**
 
-1. Store individual part designs in the `single_parts/` subfolder.
-2. Save assembly designs in the `assemblies/` subfolder.
-3. Update design documentation to reflect any changes to parts or assemblies.
+1. Store important information on the workings of the fabrication process
+2. Any information on recreating the project
 
-### 3. `electronics`
+### 3. `schematic`
 
 **Purpose:**
-The `electronics` folder is dedicated to the electronic components of the device. It includes diagrams, part lists, and other resources needed for the electronic systems.
+The `schematic` folder is dedicated to the electronic schematics for PCB design.
 
 **Contents:**
 
 - Circuit diagrams and schematics.
-- Bill of materials (BOM) for electronic parts.
 - Datasheets and reference materials for components.
 
 **Usage:**
 
 1. Add circuit diagrams and schematics for the project.
-2. Document electronic components in a structured BOM.
-3. Store relevant datasheets and reference materials for easy access.
+2. Store relevant datasheets and reference materials for easy access.
 
 ---
 
