@@ -1,0 +1,75 @@
+End of term documentation
+
+Haya Dakhil & Gaby (most tasks were done together)
+
+U-bracket Mount Machining 
+Done by: Haya, Gaby with the help of Joshua
+* Drilled holes in the U-bracket 
+* As of right now, we are working on the work order to be completed so the brackets can be bent
+Attachments: 
+* ZStepperHolderDrawing.jpg - Preliminary 2D sketch in SOLIDWORKS, uploaded as JPG
+* ZStepperHolderPart.png - Snapshot of machined part
+Tools used: SOLIDWORKS, UW E5 Machine shop
+
+
+Dimensioning of PSU, Circuit board, Screen
+Done by: Haya
+* Measured dimensions of the PSU including hole placements, the screen, and the control board. 
+* These measurements were used for CAD and assembly planning. 
+* Measured in inches
+Attachments:
+* Dimensions.pdf  - measurements and its diagrams
+CAD Design and Printing - PSU Box
+Done by: Haya
+
+* Designed the PSU enclosure, which includes two parts:
+   * Base, with a wire slot
+   * A slide-in lid
+During testing, I had to file down the top part of the base slightly for the PSU to fit through 
+Attachments: 
+* PSU_LID.SLDPRT
+* PSU_BODY.SLDPRT
+* PSUCasePhoto.png
+Tools: SOLIDWORKS, 3D printer from RPC
+
+Preliminary Sketch - Fluid Deposition Mechanism
+Done by: Haya and Gaby
+* Created a mechanism for fluid deposition for the screen-printing process. 
+* The design was based on constraints to use a syringe and stepper motor
+* Components can be CADded, but need to be screwed together
+* Next steps: Create a schematic drawing and CAD parts surrounding the dimensions of our syringe and stepper motor 
+Attachments:
+* FluidIntegration.png file explaining the concept, and its components needed
+* https://www.youtube.com/watch?v=Ya2Ck09Q0-Q&start=1 Link showcasing process
+
+PCB assembly and wiring
+Done by: Haya and Gaby
+* Most of the PCB work was done by Andrew, but we finalized it by doing its final connections of male and female connector wires. 
+* We followed the documentation in a link I’ll provide.  
+* An issue came up where the Z-axis connection didn't fit, so Andrew soldered the wires directly. 
+Attachments: 
+* PCBAssembly.png Snapshot showing the assembly
+* https://osoyoo.com/2016/07/03/reprap-3d-printer-circuit-connection-graph/ Our guide
+
+Electrical components - PSU/Components assembly
+Done by: Haya, Gaby, Ahyan. Dany
+* Helped attach electrical components to the PSU and tested wire connections.  
+* We submitted a photo of this, though note: the wires have been continuously connected and disconnected due to ongoing testing 
+Attachments:
+* ComponentsAssembly.png
+
+
+Education Liaison
+Done by: Haya
+* Acted as the Education Liaison for the team. My role was to support the Education sub-team by helping them understand the technical aspects of the project.  
+* I connected with them to clarify details about the mechanical and electrical subsystems and answered any questions they had so they could complete their documentation accurately.
+* We only had time to mainly discuss the chemical side of the curriculum
+
+
+
+
+Software/Tools Used  
+- SolidWorks 2023 / 2024
+- PDF editor: done on Goodnotes
+- Machining: UW E5 Machine shop
+- Soldering & electrical work done using standard lab equipment

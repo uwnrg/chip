@@ -43,19 +43,21 @@ The `mechanical` folder contains all files and designs related to the mechanical
 ### 3. `electronics`
 
 **Purpose:**
-The `electronics` folder is dedicated to the electronic components of the device. It includes diagrams, part lists, and other resources needed for the electronic systems.
+The `electronics` folder is dedicated to the electronic components of the device. It includes diagrams, part lists, 3d models, and other resources needed for the electronic systems.
 
 **Contents:**
 
 - Circuit diagrams and schematics.
 - Bill of materials (BOM) for electronic parts.
 - Datasheets and reference materials for components.
+- Documentation related to the electronic side of things
 
 **Usage:**
 
 1. Add circuit diagrams and schematics for the project.
 2. Document electronic components in a structured BOM.
 3. Store relevant datasheets and reference materials for easy access.
+4. Any related documentation for this system's electronics
 
 ---
 
